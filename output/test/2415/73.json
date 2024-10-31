@@ -1,0 +1,30 @@
+{
+    "auto_rotate_confidence": 0.000125405107894494,
+    "auto_rotate_degrees": 0,
+    "detection_list": [
+        "is_printed"
+    ],
+    "detection_map": {
+        "contains_chart": 0,
+        "contains_diagram": 0,
+        "contains_graph": 0,
+        "contains_table": 0,
+        "is_blank": 0,
+        "is_inverted": 0,
+        "is_not_math": 0,
+        "is_printed": 0.9975844621658325
+    },
+    "image_height": 69,
+    "image_width": 121,
+    "latex_confidence": 0.99951171875,
+    "latex_confidence_rate": 0.9998779296875,
+    "latex_simplified": "17.9",
+    "position": {
+        "height": 67,
+        "top_left_x": 0,
+        "top_left_y": 0,
+        "width": 121
+    },
+    "request_id": "2024_06_12_e9e00380f7d0356475edg",
+    "version": "RSK-M131p2i1"
+}

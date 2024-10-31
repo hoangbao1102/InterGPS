@@ -1,6 +1,6 @@
 # Introduction
 
-Code and data for ACL 2021 Paper "[Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning](https://arxiv.org/abs/2105.04165)".
+PBL Geometry Math Solver Code and data based on ACL 2021 Paper "[Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning](https://arxiv.org/abs/2105.04165)".
 
 We construct a new large-scale benchmark, **Geometry3K**, which consists of 3,002 geometry problems with dense annotation in formal language. We define 91 predicates and their corresponding literal templates to describe each problem. All predicates are defined in [here](https://github.com/lupantech/InterGPS/blob/main/predicates.md). Four data examples in the *Geometry3K* dataset are shown below:
 
@@ -179,7 +179,7 @@ If you want save time, you could skip the step above and download checkpoint mod
 cd theorem_predict
 mkdir models
 cd models
-wget https://acl2021-intergps.s3.us-west-1.amazonaws.com/tp_model_best.pt
+wget https://drive.google.com/file/d/15p5awR1uSAdERWOdLui1T2Xuq26XMx5P/view?usp=sharing
 ```
 
 5. Evaluate the the theorem predictor to generate predicted theorem sequences:
@@ -252,9 +252,6 @@ Follow the [instructions](https://github.com/tzutalin/labelImg#labelimg) to inst
 
 
 ## Citation
-
-If the paper,  the dataset, or the code helps you, please cite the paper in the following format :
-
 ```
 @inproceedings{lu2021inter,
   title = {Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning},
@@ -263,10 +260,3 @@ If the paper,  the dataset, or the code helps you, please cite the paper in the 
   year = {2021}
 }
 ```
-
-
-
-## Q&A
-
-If you encounter any problem, feel free to either directly contact the first authors or leave an issue in the [github repo](https://github.com/lupantech/InterGPS/issues).
-

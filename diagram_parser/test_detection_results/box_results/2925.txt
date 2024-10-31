@@ -1,0 +1,6 @@
+220,84,273,111,text
+87,186,140,212,text
+183,13,218,45,perpendicular
+8,13,41,45,perpendicular
+183,154,217,188,perpendicular
+8,154,41,188,perpendicular

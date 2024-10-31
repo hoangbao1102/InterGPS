@@ -170,6 +170,11 @@ def main(args=None):
         scheduler.step(np.mean(epoch_loss))
 
         torch.save(retinanet.module, '{}/{}_retinanet_{}.pt'.format(parser.output_path, parser.dataset, epoch_num))
+        if os.path.exists('{}/{}_retinanet_{}.pt'.format(parser.output_path, parser.dataset, epoch_num-5)):
+            os.remove('{}/{}_retinanet_{}.pt'.format(parser.output_path, parser.dataset, epoch_num-5))
+            print(f"{'{}/{}_retinanet_{}.pt'.format(parser.output_path, parser.dataset, epoch_num-5)} đã được xóa.")
+        else:
+            print(f"{'{}/{}_retinanet_{}.pt'.format(parser.output_path, parser.dataset, epoch_num-5)} không tồn tại.")
 
     retinanet.eval()
 

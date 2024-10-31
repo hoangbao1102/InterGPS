@@ -1,0 +1,8 @@
+221,116,255,143,text
+365,87,405,117,text
+207,22,229,45,text
+32,43,62,73,perpendicular
+144,73,182,114,perpendicular
+316,101,351,136,perpendicular
+46,98,83,136,perpendicular
+191,147,231,188,perpendicular

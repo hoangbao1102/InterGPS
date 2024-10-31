@@ -1,0 +1,52 @@
+{
+  "input_diagram": {
+    "log": [],
+    "point_instances": [
+      "A",
+      "B",
+      "C",
+      "point_3",
+      "D"
+    ],
+    "line_instances": [
+      "AB",
+      "AC",
+      "Apoint_3",
+      "AD",
+      "BC",
+      "Cpoint_3",
+      "point_3D"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(A, B), Line(A, C))",
+      "Equals(MeasureOf(Angle(C, B, A)), 30)",
+      "Equals(LengthOf(Line(A, C)), 21)",
+      "Equals(MeasureOf(Angle(A, C, B)), 60)",
+      "Equals(LengthOf(Line(A, B)), y)",
+      "Equals(LengthOf(Line(B, C)), x)"
+    ],
+    "point_positions": {
+      "A": [
+        76.06045424181697,
+        218.5434201736807
+      ],
+      "B": [
+        0.9681032687903439,
+        1.205912971059746
+      ],
+      "C": [
+        206.28674040780763,
+        176.5769234855971
+      ],
+      "null": [
+        99.48593646591661,
+        211.24867637326275
+      ],
+      "D": [
+        87.0,
+        193.0
+      ]
+    }
+  }
+}

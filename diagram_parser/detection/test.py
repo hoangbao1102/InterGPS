@@ -50,7 +50,7 @@ def detect_image(image_path, model_path, class_list, output_path):
     model.training = False
     model.eval()
     cnt = 0
-    test_set = list(range(2401, 3002))
+    # test_set = list(range(2401, 3002))
 
     if os.path.exists(output_path):
         shutil.rmtree(output_path)
@@ -61,11 +61,6 @@ def detect_image(image_path, model_path, class_list, output_path):
         if not img_name.endswith(".png") and not img_name.endswith(".jpg"):
             continue
         image_id = os.path.splitext(img_name)[0]
-        try:
-            if int(image_id) not in test_set:
-                continue
-        except:
-            continue
 
         ocr_folder = os.path.join(output_path, 'ocr_results', image_id)
         os.makedirs(ocr_folder)

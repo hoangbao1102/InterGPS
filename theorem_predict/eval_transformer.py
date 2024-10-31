@@ -39,20 +39,19 @@ def evaluate(diagram_logic_file, text_logic_file, tokenizer_name, model_name, ch
 
         output = model.generate(input, bos_token_id=0, eos_token_id=2,
                              max_length=20, num_beams=10, num_return_sequences=seq_num)
-        # print(out.size())
+        # print(output)
 
         ## refine output sequence
         seq = []
         for j in range(seq_num):
             res = tokenizer.decode(output[j].tolist())
             res = res.replace("</s>", "").replace("<s>", "").replace("<pad>", "")
-            # print(res)
+            res = '['+res
             try:
                 res = ast.literal_eval(res) # string class to list class
             except Exception as e:
                 res = []
             seq.append(res)
-
         final[str(pid)] = {"id": str(pid), "num_seqs": seq_num, "seq": seq}
 
     return final

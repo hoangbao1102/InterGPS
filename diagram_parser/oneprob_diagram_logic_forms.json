@@ -1,0 +1,48 @@
+{
+"2409": {
+    "log": [],
+    "point_instances": [
+      "point_0",
+      "A",
+      "B",
+      "C",
+      "point_4"
+    ],
+    "line_instances": [
+      "point_0C",
+      "point_0point_4",
+      "CA",
+      "CB",
+      "Cpoint_4",
+      "point_4B",
+      "AB"
+    ],
+    "circle_instances": [],
+    "diagram_logic_forms": [
+      "Perpendicular(Line(C, A), Line(C, B))",
+      "Equals(LengthOf(Line(C, A)), y)",
+      "Equals(MeasureOf(Angle(C, B, A)), 60)",
+      "Equals(LengthOf(Line(A, B)), x)",
+      "Equals(LengthOf(Line(C, B)), 21)",
+      "Equals(MeasureOf(Angle(B, A, C)), 30)"
+    ],
+    "point_positions": {
+      "null": [
+        99.48593646591661,
+        211.24867637326275
+      ],
+      "A": [
+        0.9681032687903439,
+        1.205912971059746
+      ],
+      "B": [
+        206.28674040780763,
+        176.5769234855971
+      ],
+      "C": [
+        76.06045424181697,
+        218.5434201736807
+      ]
+    }
+  }
+}

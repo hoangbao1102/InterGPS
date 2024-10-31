@@ -1,0 +1,34 @@
+                   label = final_new
+                strategy = final
+               data_path = ../data/geometry3k
+    text_logic_form_path = ../text_parser/oneprob_text_logic_forms.json
+ diagram_logic_form_path = ../diagram_parser/oneprob_diagram_logic_forms.json
+           use_annotated = False
+            predict_path = ../theorem_predict/results/test/oneprob_pred_seq_test_bart_best.json
+             start_index = 2409
+               end_index = 2409
+              time_limit = 150
+             num_threads = 20
+               low_first = True
+              step_limit = 100
+              debug_mode = False
+            enable_round = False
+          enable_predict = True
+
+{'pid': 2409, 'target': ['Value', 'y'], 'guess': 36.3730669589464, 'correctness': 'yes', 'steps': 17, 'step_lst': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], 'time': 1.28}
+
+Solved list:  [2409]
+Solved and correct list:  [2409]
+Solved but wrong list:  []
+Unsolved list:  []
+
+num_solved: 1 (100.00%)
+num_solved_correct: 1 (100.00%)
+num_solved_wrong: 0 (0.00%)
+num_guessed_correct: 1.0 (100.00%)
+
+Average steps for all problems: 17.00
+Average steps for solved problems: 17.00
+Average time for all problems: 1.28 seconds
+Average time for solved problems: 1.28 seconds
+Real total time: 5 seconds

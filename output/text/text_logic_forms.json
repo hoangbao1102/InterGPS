@@ -1,0 +1,9 @@
+{
+  "input_diagram": {
+    "text_logic_forms": [
+      "Find(x)"
+    ],
+    "output_text": "[Find(x)]",
+    "success": true
+  }
+}

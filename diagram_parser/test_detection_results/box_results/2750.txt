@@ -1,0 +1,5 @@
+177,13,231,45,text
+12,115,51,148,text
+239,105,273,137,perpendicular
+54,190,93,225,perpendicular
+126,162,153,189,parallel

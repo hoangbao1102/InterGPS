@@ -1,0 +1,5 @@
+103,101,141,139,perpendicular
+179,70,241,98,text
+83,43,115,75,text
+79,196,112,224,text
+10,15,44,49,perpendicular

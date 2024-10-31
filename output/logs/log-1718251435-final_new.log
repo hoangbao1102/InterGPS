@@ -1,0 +1,46 @@
+                   label = final_new
+                strategy = final
+               data_path = input/data.json
+    text_logic_form_path = output/text/text_logic_forms.json
+ diagram_logic_form_path = output/diagram/diagram_logic_forms.json
+           use_annotated = False
+            predict_path = output/demo/pred_seqs_test_bart_best.json
+             start_index = 2401
+               end_index = 3001
+              time_limit = 150
+             num_threads = 20
+               low_first = True
+              step_limit = 100
+              debug_mode = False
+            enable_round = False
+          enable_predict = True
+
+{'pid': '_', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.01}
+{'pid': 'a', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.01}
+{'pid': 'a', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.01}
+{'pid': 'd', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.01}
+{'pid': 'g', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.01}
+{'pid': 'i', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.02}
+{'pid': 'i', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.0}
+{'pid': 'm', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.0}
+{'pid': 'n', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.02}
+{'pid': 'p', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.0}
+{'pid': 'r', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.01}
+{'pid': 't', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.01}
+{'pid': 'u', 'target': None, 'guess': None, 'correctness': 'no', 'steps': 0, 'step_lst': [], 'time': 0.01}
+
+Solved list:  []
+Solved and correct list:  []
+Solved but wrong list:  []
+Unsolved list:  ['i', 'n', 'p', 'u', 't', '_', 'd', 'i', 'a', 'g', 'r', 'a', 'm']
+
+num_solved: 0 (0.00%)
+num_solved_correct: 0 (0.00%)
+num_solved_wrong: 0 (0.00%)
+num_guessed_correct: 3.25 (25.00%)
+
+Average steps for all problems: 0.00
+Average steps for solved problems: 0.00
+Average time for all problems: 0.12 seconds
+Average time for solved problems: 0.00 seconds
+Real total time: 4 seconds

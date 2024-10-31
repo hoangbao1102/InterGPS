@@ -69,6 +69,7 @@ if __name__ == '__main__':
             res = model(input.to(device), labels=output[:, 1:].contiguous().to(device),
                         decoder_input_ids=output[:, :-1].contiguous().to(device))
             loss = res.loss
+            print(loss)
             loss.backward()
             optimizer.step()
             scheduler.step()

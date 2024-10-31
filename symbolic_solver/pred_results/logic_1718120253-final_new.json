@@ -1,0 +1,50 @@
+{
+  "result": [
+    {
+      "pid": 2409,
+      "target": "['Value', 'y']",
+      "guess": 36.373066958946424,
+      "correctness": "yes",
+      "steps": 17,
+      "step_lst": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "time": 1.26
+    }
+  ],
+  "test_list": [
+    2409
+  ],
+  "solved_list": [
+    2409
+  ],
+  "solved_correct_list": [
+    2409
+  ],
+  "solved_wrong_list": [],
+  "unsolved_list": [],
+  "avg_solve_time": 1.26,
+  "avg_solved_time": 1.26,
+  "avg_solve_step": 17.0,
+  "avg_solved_step": 17.0,
+  "real_time": 4,
+  "problem_data_version": "../data/geometry3k",
+  "text_logic_version": "../text_parser/oneprob_text_logic_forms.json",
+  "diagram_logic_version": "../diagram_parser/oneprob_diagram_logic_forms.json"
+}

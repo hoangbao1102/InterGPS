@@ -1,0 +1,6 @@
+211,407,307,457,text
+387,352,435,403,perpendicular
+73,353,127,404,perpendicular
+74,39,126,93,perpendicular
+387,39,439,92,perpendicular
+237,205,274,243,text

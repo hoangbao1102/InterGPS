@@ -1,0 +1,17 @@
+{
+  "problem_text": "Find y.",
+  "choices": [
+    "21",
+    "21 \\sqrt { 2 }",
+    "21 \\sqrt { 3 }",
+    "42"
+  ],
+  "answer": "C",
+  "precise_value": [
+    21.0,
+    29.698484809834998,
+    36.373066958946424,
+    42.0
+  ],
+  "compact_text": "Find y."
+}
