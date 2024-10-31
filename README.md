@@ -2,7 +2,7 @@
 
 PBL Geometry Math Solver Code and data based on ACL 2021 Paper "[Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning](https://arxiv.org/abs/2105.04165)".
 
-We construct a new large-scale benchmark, **Geometry3K**, which consists of 3,002 geometry problems with dense annotation in formal language. We define 91 predicates and their corresponding literal templates to describe each problem. All predicates are defined in [here](https://github.com/lupantech/InterGPS/blob/main/predicates.md). Four data examples in the *Geometry3K* dataset are shown below:
+We construct a new large-scale benchmark, **Geometry3K**, which consists of 3,002 geometry problems with dense annotation in formal language. We define 91 predicates and their corresponding literal templates to describe each problem. All predicates are defined in [here](https://github.com/hoangbao1102/InterGPS/blob/main/predicates.md). Four data examples in the *Geometry3K* dataset are shown below:
 
 ![example](data/example.png)
 
@@ -90,7 +90,7 @@ python test.py --label random --strategy random --use_annotated
 python test.py --label low-first --strategy low-first --use_annotated
 ```
 
-All these result files reported in the Table 7 are released in [`symbolic_solver/pred_results`](https://github.com/lupantech/InterGPS/tree/main/symbolic_solver/pred_results) and [`symbolic_solver/logs`](https://github.com/lupantech/InterGPS/tree/main/symbolic_solver/logs), respectively.
+All these result files reported in the Table 7 are released in [`symbolic_solver/pred_results`](https://github.com/hoangbao1102/InterGPS/tree/main/symbolic_solver/pred_results) and [`symbolic_solver/logs`](https://github.com/hoangbao1102/InterGPS/tree/main/symbolic_solver/logs), respectively.
 
 ### Calculate Accuracies
 
@@ -115,7 +115,7 @@ python text_parser.py
 
 ### Diagram Parser
 
-The diagram parser converts a problem diagram into literals (logic forms). Only the most core running code is shown as following. If you would like to know every detail, please refer to this [README](https://github.com/lupantech/InterGPS/blob/main/diagram_parser/README.md) file.
+The diagram parser converts a problem diagram into literals (logic forms). Only the most core running code is shown as following. If you would like to know every detail, please refer to this [README](https://https://github.com/hoangbao1102/InterGPS/blob/main/diagram_parser/README.md) file.
 
 Unzip our detection results of text regions and symbols:
 
@@ -158,7 +158,7 @@ It generates two files:
 python check_theorem_seq.py
 ```
 
-It will take about 20 hours to attempt 100 tries over all training data! If you want to save time, just skip this step and use our generated data in [`theorem_predict/results/train/splits`](https://github.com/lupantech/InterGPS/tree/main/theorem_predict/results/train/splits) instead.
+It will take about 20 hours to attempt 100 tries over all training data! If you want to save time, just skip this step and use our generated data in [`theorem_predict/results/train/splits`](https://github.com/hoangbao1102/InterGPS/tree/main/theorem_predict/results/train/splits) instead.
 
 3. (Optional) Merge 100 tries of pseudo-optimal theorem sequences into one file. 
 
@@ -243,7 +243,7 @@ Run the labeling tool:
 python labelImg.py
 ```
 
-After running the tool, click the `Open Dir` button to open the data directory containing problem images, for example, `InterGPS/data/geometry3k/symbols`, and choose `Use default label` to use pre-defined labels in [data/predefined_classes.txt](https://github.com/lupantech/InterGPS/blob/main/annotation_tool/labelImg/data/predefined_classes.txt). Note that pre-defined labels in [data/predefined_classes.txt](https://github.com/lupantech/InterGPS/blob/main/annotation_tool/labelImg/data/predefined_classes.txt) are consistent with labels in [diagram_parser/detection/classes.txt](diagram_parser/detection/classes.txt).
+After running the tool, click the `Open Dir` button to open the data directory containing problem images, for example, `InterGPS/data/geometry3k/symbols`, and choose `Use default label` to use pre-defined labels in [data/predefined_classes.txt](https://github.com/hoangbao1102/InterGPS/blob/main/annotation_tool/labelImg/data/predefined_classes.txt). Note that pre-defined labels in [data/predefined_classes.txt](https://github.com/hoangbao1102/InterGPS/blob/main/annotation_tool/labelImg/data/predefined_classes.txt) are consistent with labels in [diagram_parser/detection/classes.txt](diagram_parser/detection/classes.txt).
 
 ![labelImg](annotation_tool/labelImg.png)
 
